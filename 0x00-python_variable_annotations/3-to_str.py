@@ -2,6 +2,6 @@
 """ type-annotated function add"""
 
 
-def to_str(n: float) -> float:
+def to_str(n: float) -> int:
     """Sums A and B"""
     return str(n)
