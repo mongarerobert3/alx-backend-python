@@ -6,6 +6,6 @@ import random
 
 async def wait_random(max_delay: int = 10) -> float:
     """asynchronous coroutine"""
-    wait_time = random.random(0, 10)
+    wait_time = random.random() * max_delay
     await asyncio.sleep(wait_time)
     return wait_time
